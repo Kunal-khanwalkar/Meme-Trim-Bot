@@ -14,6 +14,7 @@ To-do: Use Async/Await for synchronous code as the Promises API and timeouts are
 1. Youtube-DL for video retrieval.
 
  [![youtube-dl](https://img.shields.io/badge/Youtube--DL-link-brightgreen)](https://github.com/ytdl-org/youtube-dl)
+ 
 2. FFMPEG for video trimming.
 
  [![FFPMEG](https://img.shields.io/badge/FFMPEG-link-brightgreen)](https://ffmpeg.org/)
