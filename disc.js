@@ -2,10 +2,10 @@ const promise = require('promise');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const keys = require('.\\APIkeys.json');
+//const keys = require('.\\APIkeys.json');
 
-const bot_token = keys[0].value;
-const client_id = keys[1].value;
+//const bot_token = keys[0].value;
+//const client_id = keys[1].value;
 
 var video_call = require('.\\videos.js');
 
@@ -55,5 +55,5 @@ client.on('message', message => {
 });
 
 
-client.login(bot_token);
+client.login(process.env.BOT_TOKEN);
 
